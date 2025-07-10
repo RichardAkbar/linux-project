@@ -36,7 +36,9 @@ Langkah 4: Verifikasi Perubahan pada sshd_config
 Langkah 5: Restart Layanan SSH
 
 ~~~
+
 ![alt text](image-4.png)
+
 ~~~
 
 Langkah 6: Verifikasi bahwa Login Root Dinonaktifkan
@@ -46,7 +48,9 @@ Menguji bahwa login SSH sebagai root ditolak.
 
 
 ~~~
+
 ![alt text](image-6.png)
+
 ~~~
 
 menonaktifkan login SSH root, mengurangi risiko serangan terhadap akun dengan hak istimewa penuh.
