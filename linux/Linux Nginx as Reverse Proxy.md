@@ -1,9 +1,20 @@
 Menginstal dan mengkonfigurasi Apache pada stbkp01 untuk mendengarkan pada port 8083/tcp di semua interface.
+
+
 Menginstal dan mengkonfigurasi Nginx pada stbkp01 untuk listen pada port 8095/tcp.
+
+
 Mengatur Nginx sebagai reverse proxy untuk meneruskan permintaan dari port 8095 ke Apache pada port 8083.
+
+
 Menyalin file index.html dari jump host ke document root Apache.
+
+
 Memastikan kedua layanan berjalan dan dapat diakses melalui curl.
+
+
 Memverifikasi bahwa firewall mengizinkan port 8083 dan 8095 tanpa memodifikasi pengaturan keamanan yang ada.
+
 
 Langkah 1: Instal Apache (httpd)
 
@@ -73,7 +84,8 @@ Langkah 7: Uji Akses dari Jump Host
 Nginx meneruskan permintaan ke Apache dan menampilkan index.html. menunjukkan isi file index.html
 
 
-Menginstal Apache (port 8083) dan Nginx (port 8095) pada stbkp01, mengatur Nginx sebagai reverse proxy, menyalin index.html, dan menguji dengan curl.
+Menginstal Apache (port 8083) dan Nginx (port 8095) pada stbkp01, 
+mengatur Nginx sebagai reverse proxy, menyalin index.html, dan menguji dengan curl.
 
 
 Apache dan Nginx berjalan, Nginx mem-proksi ke Apache, index.html dapat diakses via curl http://stbkp01:8095.
