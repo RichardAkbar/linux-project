@@ -40,6 +40,6 @@ Langkah 5: Mulai dan Aktifkan Nginx
 
 Langkah 6: Uji Load Balancer dari Jump Host
 
-![alt text](image-75.png)
+![alt text](image-76.png)
 
 Nginx mendistribusikan lalu lintas ke server aplikasi, website dapat diakses melalui curl http://stlb01.stratos.xfusioncorp.com
